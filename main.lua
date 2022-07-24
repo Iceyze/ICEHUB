@@ -12,8 +12,8 @@ Section:NewButton("INFINITE YIELD", "ButtonInfo", function()
 end)
 
 Section:NewButton("AIMLABS", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    AIMLABS1()
 end)
 Section:NewButton("OWL HUB", "ButtonInfo", function()
-    AIMLABS1()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
